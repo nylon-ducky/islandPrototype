@@ -163,6 +163,15 @@ nav a {
     min-height: 1500px;
 }
 
+#mountain::after {
+    content: "Photos by: Jimmy Conover and Karsten Winegeart on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
 #third {
     position: absolute;
     margin-top: 500px;
@@ -206,6 +215,22 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 900px;
+}
+
+#sunsetBeach::after {
+    content: "Photos by: Marvin Meyer, Jörg Angeli, SJ ., Ibrahim Mushan, and Nicate Lee on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#sunsetBeach img {
+    width: 79%;
+    margin: 10% 10% 0 10%;
+    border-radius: 25px;
+    border: 2px solid white;
 }
 
 .lodgingHead {
@@ -329,6 +354,15 @@ nav a {
 
 }
 
+#transportationBackground::after {
+    content: "Photos by: Scott Taylor on Unsplash, as well as Emslichter, and Sabrina Belle on Pixabay";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
 .cards {
     width: max-content;
     height: min-content;
@@ -428,13 +462,22 @@ nav a {
 
 
 #fishMarket {
-    background-image: url("Assets/fishMarket3.jpg");
+    background-image: url("Assets/springRolls.jpg");
     margin-top: -12px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 2700px;
+}
+
+#fishMarket::after {
+    content: "Photos by: Emily Webster, Caroline Attwood, Tyson, Ella Olsson, and Raul Gonzalez Escobar on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
 }
 
 #fishH {
@@ -520,6 +563,15 @@ nav a {
     background-size: cover;
     min-height: 3700px;
     
+}
+
+#entertainment::after {
+    content: "Photos by: Persnickety Prints, Carl Raw, Steven Cordes, Artem B, Myke Simon, and Amie Johnson on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
 }
 
 #entertainmentHead {
@@ -615,6 +667,22 @@ nav a {
 
 }
 
+#sightsPage::after {
+    content: "Photos by: Jakob Owens, Jeremy Boley, roberto zuniga, Vidar Nordli-Mathisen, Subtle Cinematics, and Aaron Burden on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+    color: whitesmoke;
+}
+
+#sightsPage img {
+    width: 79%;
+    margin: 10% 10% 0 10%;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
 
 #sightsHead {
     font-size: 60px;
@@ -657,6 +725,14 @@ nav a {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 2500px;
+}
+
+#faq::after {
+    content: "Photo by Ibrahim Razzan on Unsplash";
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
 }
 
 #faqHead {
